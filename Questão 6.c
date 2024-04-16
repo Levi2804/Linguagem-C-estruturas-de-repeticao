@@ -5,7 +5,7 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n, i, fat=1;
-	printf("Digite um número inteiro: ");
+	printf("Digite um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	if(n >= 0){
 		for(i = 1; i <= n; i++){
@@ -13,7 +13,7 @@ int main(){
 		}
 		printf("\n%i! = %i", n, fat);
 	} else{
-		printf("\nNão existe fatorial de número negativo.");
+		printf("\nNÃ£o existe fatorial de nÃºmero negativo.");
 	}
 	return(0);
 }
