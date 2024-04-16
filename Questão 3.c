@@ -8,9 +8,9 @@ int main(){
 		printf("Digite sua idade: ");
 		scanf("%i", &n);
 		if(n >= 18){
-			printf("\nVocê é maior de idade!");
+			printf("\nVocÃª Ã© maior de idade!");
 		} else{
-			printf("\nVocê é menor de idade!");
+			printf("\nVocÃª Ã© menor de idade!");
 		}
 		printf("\n==========================\n");
 	}
