@@ -4,14 +4,14 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int x, y, cont, i;
-	printf(">>>Exibição de intervalo de números primos<<<\n\n");
+	printf(">>>ExibiÃ§Ã£o de intervalo de nÃºmeros primos<<<\n\n");
 	do{
-		printf("Digite o primeiro número do intervalo: ");
+		printf("Digite o primeiro nÃºmero do intervalo: ");
 		scanf("%i", &x);
 	}while(x <= 0);
 	
 	do{
-		printf("\nDigite o ultimo número do intervalo: ");
+		printf("\nDigite o ultimo nÃºmero do intervalo: ");
 		scanf("%i", &y);
 	}while(y <= x);
 	
