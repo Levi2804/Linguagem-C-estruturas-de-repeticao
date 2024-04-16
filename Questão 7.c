@@ -10,7 +10,7 @@ int main(){
 			for(cont = 1; cont <= i; cont++){
 				fat *= cont;
 			}
-			printf("O fatorial de %i é %i\n", i, fat);
+			printf("O fatorial de %i Ã© %i\n", i, fat);
 		}	
 	}
 	return(0);
