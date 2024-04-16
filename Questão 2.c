@@ -10,6 +10,6 @@ int main(){
 		}
 		i++;
 	}	
-	printf("O somatório dos valores pares de 1 a 500 é:\n%i", s);
+	printf("O somatÃ³rio dos valores pares de 1 a 500 Ã©:\n%i", s);
 	return(0);
 }
