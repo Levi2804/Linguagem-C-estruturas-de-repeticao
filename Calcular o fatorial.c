@@ -1,19 +1,30 @@
-#include<stdio.h>
-#include<locale.h>
-#include<math.h>
+#include <stdio.h>
+#include <locale.h>
 
-int main(){
-	setlocale(LC_ALL, "Portuguese");
-	int n, i, fat=1;
-	printf("Digite um número inteiro: ");
-	scanf("%i", &n);
-	if(n >= 0){
-		for(i = 1; i <= n; i++){
-			fat *= i;
-		}
-		printf("\n%i! = %i", n, fat);
-	} else{
-		printf("\nNão existe fatorial de número negativo.");
-	}
-	return(0);
+// Valor mínimo aceitável para n
+#define MIN_N 0
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+
+    int n, i, fatorial = 1;
+
+    // Solicita ao usuário que digite um número inteiro
+    printf("Digite um número inteiro não negativo: ");
+    scanf("%i", &n);
+
+    // Verifica se o número é não negativo
+    if (n >= MIN_N) {
+        // Calcula o fatorial de n
+        for (i = 1; i <= n; i++) {
+            fatorial *= i;
+        }
+        // Exibe o resultado
+        printf("\n%i! = %i\n", n, fatorial);
+    } else {
+        // Exibe uma mensagem de erro se o número for negativo
+        printf("\nNão existe fatorial de número negativo.\n");
+    }
+
+    return 0;
 }
